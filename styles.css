@@ -49,5 +49,11 @@ h1 {
 }
 
 main {
-  font-size: 18px;
+  font-size: 24px;
+}
+
+#profile-photo {
+  float: right;
+  width: 250px;
+  margin: 10px;
 }
