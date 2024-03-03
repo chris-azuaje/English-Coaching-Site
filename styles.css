@@ -57,3 +57,81 @@ main {
   width: 250px;
   margin: 10px;
 }
+
+#course-container {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+}
+
+#course-header {
+  text-align: center;
+}
+
+.course-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  border: 1px solid black;
+  margin: 20px 0;
+  width: 25%;
+}
+
+.course-card--header {
+  background-color: var(--color-6);
+  margin: 0;
+  position: relative;
+  width: 80%;
+  top: -30px;
+  border: 1px solid black;
+  z-index: 2;
+  text-align: center;
+}
+
+.course-card--main ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.course-card--btn {
+  background-color: var(--color-5);
+  border: 1px solid black;
+  margin: 20px auto;
+  padding: 10px 60px;
+}
+
+.course-card--btn:hover {
+  background-color: var(--color-6);
+  cursor: pointer;
+}
+
+#contact-me--header {
+  text-align: center;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px auto;
+  width: 60%;
+}
+
+#contact-form input[type='text'] {
+  font-size: 20px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+#contact-form textarea {
+  font-size: 20px;
+  padding: 15px;
+}
+
+#contact-form--btn {
+  font-size: 20px;
+  padding: 15px;
+  margin-top: 20px;
+}
