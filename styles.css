@@ -107,6 +107,14 @@ main {
   cursor: pointer;
 }
 
+.question-container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 20px;
+  margin-top: 10px;
+}
+
 #contact-me--header {
   text-align: center;
 }
