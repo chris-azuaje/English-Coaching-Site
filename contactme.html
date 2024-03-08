@@ -5,12 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <title>English Coach</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
       <header>
         <nav>
-          <div><h1>Online English Coaching</h1></div>
+          <div class="title">
+            <h1>Online English Coaching</h1>
+            <p class="title-subheading playfair-display">~ with Anastasia</p>
+          </div>
           <div class="nav-links">
             <a href="index.html">Home</a>
             <a href="courses.html">Courses</a>
@@ -20,8 +29,8 @@
         </nav>
       </header>
       <main>
-        <div id="contact-me--header">
-          <h2>Contact Me!</h2>
+        <div class="main-header playfair-display">
+          <h2>Contact me!</h2>
         </div>
         <form id="contact-form" action="">
           <input type="text" placeholder="Name" />
@@ -37,6 +46,7 @@
           <button id="contact-form--btn">Send Message</button>
         </form>
       </main>
+      <footer><p>Created by Chris Azuaje</p></footer>
     </div>
   </body>
 </html>

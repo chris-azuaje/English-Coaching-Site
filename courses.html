@@ -5,12 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <title>English Coach</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
       <header>
         <nav>
-          <div><h1>Online English Coaching</h1></div>
+          <div class="title">
+            <h1>Online English Coaching</h1>
+            <p class="title-subheading playfair-display">~ with Anastasia</p>
+          </div>
           <div class="nav-links">
             <a href="index.html">Home</a>
             <a href="courses.html">Courses</a>
@@ -20,8 +29,8 @@
         </nav>
       </header>
       <main>
-        <div id="course-header">
-          <h2>Plans and Pricing</h2>
+        <div class="main-header playfair-display">
+          <h2>Plans and pricing</h2>
         </div>
         <div id="course-container">
           <div class="course-card">
@@ -31,12 +40,13 @@
             </div>
             <div class="course-card--main">
               <ul>
-                <li>
-                  Foundation Building: Beginner-focused, fundamental skills.
-                </li>
-                <li>Interactive Learning: Fun, engaging activities.</li>
-                <li>Customized Lessons: Personalized, adaptive content.</li>
-                <li>Goal-Oriented Approach: Clear, achievable objectives.</li>
+                <li>Beginner-focused, fundamental skills</li>
+                <div class="line-break"></div>
+                <li>Fun, engaging activities</li>
+                <div class="line-break"></div>
+                <li>Personalized, adaptive content</li>
+                <div class="line-break"></div>
+                <li>Clear, achievable objectives</li>
               </ul>
             </div>
             <button class="course-card--btn">Select</button>
@@ -48,16 +58,13 @@
             </div>
             <div class="course-card--main">
               <ul>
-                <li>
-                  Skill Enhancement: Elevates conversation, complex grammar.
-                </li>
-                <li>
-                  Focused Curriculum: Deepens grammar, broadens vocabulary.
-                </li>
-                <li>
-                  Real-World Application: Prepares for everyday interactions.
-                </li>
-                <li>Progressive Learning: Bridges to advanced fluency.</li>
+                <li>Elevates conversation, complex grammar</li>
+                <div class="line-break"></div>
+                <li>Deepens grammar, broadens vocabulary</li>
+                <div class="line-break"></div>
+                <li>Prepares for everyday interactions</li>
+                <div class="line-break"></div>
+                <li>Bridges to advanced fluency</li>
               </ul>
             </div>
             <button class="course-card--btn">Select</button>
@@ -69,16 +76,20 @@
             </div>
             <div class="course-card--main">
               <ul>
-                <li>Engaging Content: Fun, cartoon-based learning.</li>
-                <li>Visual Learning: Enhances through visual stories.</li>
-                <li>10-Lesson Format: Flat-fee, themed lessons.</li>
-                <li>Creative Approach: Combines education, entertainment.</li>
+                <li>Fun, cartoon-based learning</li>
+                <div class="line-break"></div>
+                <li>Enhances through visual stories</li>
+                <div class="line-break"></div>
+                <li>Flat-fee, themed lessons</li>
+                <div class="line-break"></div>
+                <li>Combines education, entertainment</li>
               </ul>
             </div>
             <button class="course-card--btn">Select</button>
           </div>
         </div>
       </main>
+      <footer><p>Created by Chris Azuaje</p></footer>
     </div>
   </body>
 </html>
