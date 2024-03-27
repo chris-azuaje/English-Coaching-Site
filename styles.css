@@ -9,13 +9,13 @@
 }
 
 .lato-regular {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .playfair-display {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -151,6 +151,13 @@ main {
   cursor: pointer;
 }
 
+/* ---------- FAQ's Section ---------- */
+
+.answer-container.active {
+  max-height: 500px; /* Adjust as needed */
+  transition: max-height 0.5s ease-in;
+}
+
 .faq-container {
   border: 1px solid black;
   margin-top: 10px;
@@ -163,8 +170,20 @@ main {
   justify-content: space-between;
 }
 
+.arrow-down {
+  transition: all 0.5s ease-out;
+  transform: rotate(90deg);
+}
+
 .answer-container {
-  padding: 20px;
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+
+.question-container:hover {
+  cursor: pointer;
 }
 
 #contact-form {
@@ -175,7 +194,7 @@ main {
   width: 60%;
 }
 
-#contact-form input[type='text'] {
+#contact-form input[type="text"] {
   font-size: 20px;
   padding: 15px;
   margin-bottom: 20px;
