@@ -26,7 +26,7 @@ body {
   background: linear-gradient(to right top, var(--color-5), var(--color-3));
   display: flex;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .container {
@@ -172,8 +172,8 @@ main {
 }
 
 .arrow-down {
-  transition: all 0.5s ease-out;
   transform: rotate(90deg);
+  transition: transform 0.5s ease-in-out;
 }
 
 .answer-container {
@@ -211,6 +211,8 @@ main {
   padding: 15px;
   margin-top: 20px;
 }
+
+/*------------------------- Footer -------------------------*/
 
 footer {
   text-align: center;

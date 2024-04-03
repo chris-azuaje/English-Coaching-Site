@@ -8,15 +8,17 @@ document.addEventListener('DOMContentLoaded', () => {
       const answer = question.nextElementSibling;
       answer.classList.toggle('active');
 
+      const arrow = question.querySelector('.arrow');
+      arrow.classList.toggle('arrow-down');
+
       document.querySelectorAll('.answer-container').forEach((otherAnswer) => {
         if (otherAnswer !== answer) {
           otherAnswer.classList.remove('active');
+          otherAnswer.previousElementSibling
+            .querySelector('.arrow')
+            .classList.remove('arrow-down');
         }
       });
-
-      const arrow = document.querySelectorAll('.arrow');
-
-      arrow.forEach((arrow) => arrow.classList.toggle('arrow-down'));
     });
   });
 });
