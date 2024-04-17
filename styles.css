@@ -155,38 +155,21 @@ main {
 
 /* ---------- FAQ's Section ---------- */
 
-.answer-container.active {
-  max-height: 500px; /* Adjust as needed */
-  transition: max-height 0.5s ease-in;
-}
-
-.faq-container {
+.ui-accordion-header {
   border: 1px solid black;
-  margin-top: 10px;
-}
-
-.question-container {
   background-color: var(--color-2);
   padding: 20px;
-  display: flex;
   justify-content: space-between;
+  margin: 10px 0;
+  font-size: 1.5rem;
+  font-weight: 100;
 }
 
-.arrow-down {
-  transform: rotate(90deg);
-  transition: transform 0.5s ease-in-out;
-}
-
-.answer-container {
-  padding: 0 20px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.5s ease-out;
-}
-
-.question-container:hover {
+.ui-accordion-header:hover {
   cursor: pointer;
 }
+
+/* ---------- Form Section ---------- */
 
 #contact-form {
   display: flex;

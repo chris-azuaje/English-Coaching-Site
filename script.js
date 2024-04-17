@@ -1,24 +1,28 @@
 'use strict';
 
-document.addEventListener('DOMContentLoaded', () => {
-  const faqQuestions = document.querySelectorAll('.question-container');
-
-  faqQuestions.forEach((question) => {
-    question.addEventListener('click', () => {
-      const answer = question.nextElementSibling;
-      answer.classList.toggle('active');
-
-      const arrow = question.querySelector('.arrow');
-      arrow.classList.toggle('arrow-down');
-
-      document.querySelectorAll('.answer-container').forEach((otherAnswer) => {
-        if (otherAnswer !== answer) {
-          otherAnswer.classList.remove('active');
-          otherAnswer.previousElementSibling
-            .querySelector('.arrow')
-            .classList.remove('arrow-down');
-        }
-      });
-    });
+$().ready(function () {
+  // $('#accordion').accordion();
+  $('#contactMeForm').validate({
+    rules: {
+      name: {
+        required: true,
+        minlength: 2,
+      },
+      email: {
+        required: true,
+        email: true,
+        // accept: '[A-Z0-9._%+-]+@[A-Z0-9.-]+.[A-Z]{2,}',
+      },
+      subject: {
+        required: true,
+      },
+      comment: 'required',
+    },
+    messages: {
+      name: {
+        required: 'Please add a name',
+        minlength: 'Name must be at least 2 characters long',
+      },
+    },
   });
 });
