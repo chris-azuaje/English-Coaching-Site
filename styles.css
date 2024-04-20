@@ -14,8 +14,8 @@
   font-style: normal;
 }
 
-.playfair-display {
-  font-family: 'Playfair Display', serif;
+.platypi-regular {
+  font-family: 'Platypi', serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -26,7 +26,6 @@ body {
   background: linear-gradient(to right top, var(--color-5), var(--color-3));
   display: flex;
   justify-content: center;
-  min-height: 100vh;
 }
 
 .container {
@@ -37,6 +36,7 @@ nav {
   display: flex;
   justify-content: space-between;
   background-color: var(--color-1);
+  border-radius: 5px;
 }
 
 .title {
@@ -72,6 +72,7 @@ h1 {
   background-color: var(--color-3);
   font-weight: 800;
   transform: translateY(-1px);
+  border-radius: 5px;
 }
 
 main {
@@ -88,12 +89,15 @@ main {
 
 #profile-photo {
   border: 8px solid var(--color-1);
+  border-radius: 5px;
   float: right;
   width: 300px;
   margin-left: 20px;
   margin-bottom: 20px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
 }
+
+/* ---------- Courses Section ---------- */
 
 #course-container {
   margin-top: 40px;
@@ -109,6 +113,7 @@ main {
   justify-content: space-between;
   z-index: 1;
   border: 1px solid black;
+  border-radius: 5px;
   margin: 20px 0;
   width: 25%;
 }
@@ -120,6 +125,7 @@ main {
   width: 80%;
   top: -30px;
   border: 1px solid black;
+  border-radius: 5px;
   z-index: 2;
   text-align: center;
 }
@@ -144,6 +150,7 @@ main {
 .course-card--btn {
   background-color: var(--color-5);
   border: 1px solid black;
+  border-radius: 5px;
   margin: 20px auto;
   padding: 10px 60px;
 }
@@ -155,8 +162,9 @@ main {
 
 /* ---------- FAQ's Section ---------- */
 
-.ui-accordion-header {
+#accordion .ui-accordion-header {
   border: 1px solid black;
+  border-radius: 5px;
   background-color: var(--color-2);
   padding: 20px;
   justify-content: space-between;
@@ -165,35 +173,80 @@ main {
   font-weight: 100;
 }
 
-.ui-accordion-header:hover {
+#accordion .ui-accordion-header:hover {
   cursor: pointer;
 }
 
-/* ---------- Form Section ---------- */
+#accordion .ui-accordion-content {
+  font-size: 1.4rem;
+  padding: 15px;
+}
 
-#contact-form {
+#accordion p {
+  margin: 0;
+}
+
+/* ---------- Contact Me Section ---------- */
+
+#contactMeForm {
+  margin: 0 auto;
+}
+
+fieldset {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  margin: 20px auto;
-  width: 60%;
+  align-items: center;
+  border: 0;
 }
 
-#contact-form input[type='text'] {
-  font-size: 20px;
-  padding: 15px;
-  margin-bottom: 20px;
+fieldset > p {
+  display: flex;
+  flex-direction: column;
 }
 
-#contact-form textarea {
-  font-size: 20px;
-  padding: 15px;
+label {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
 }
 
-#contact-form--btn {
-  font-size: 20px;
-  padding: 15px;
-  margin-top: 20px;
+#country_selector {
+  width: 400px;
+  border-radius: 5px;
+}
+
+legend {
+  border: none;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  width: 380px;
+  height: 40px;
+  font-size: 1.2rem;
+  padding: 0 10px;
+}
+
+textarea {
+  font-family: 'Lato', sans-serif;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  border: none;
+  width: 380px;
+  padding: 10px;
+}
+
+.submit {
+  background-color: var(--color-6);
+}
+
+.submit:hover {
+  cursor: pointer;
+}
+
+div.error {
+  color: red;
+  font-size: 1rem;
 }
 
 /*------------------------- Footer -------------------------*/
