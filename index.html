@@ -8,11 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato&family=Platypi:ital,wght@0,400..900;1,400..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
   </head>
-  <body>
+  <body class="cormorant-garamond-medium">
     <div class="container">
       <header>
         <nav>
@@ -73,8 +74,29 @@
           thrive in English communication. Come join me on this exciting journey
           of language learning!
         </p>
+        <section id="reviews__section">
+          <h2>Reviews</h2>
+          <div class="reviews__container">
+            <div class="review">
+              <div class="review__heading">
+                <p class="review--name">James Smith</p>
+                <p class="review--date">February 16, 2024</p>
+              </div>
+              <p class="review--message">
+                Anastasia's teaching style is exceptional, blending interactive
+                activities with practical exercises that make every lesson
+                memorable. Her personalized approach ensured that I received the
+                exact help I needed to improve my writing and speaking skills.
+                I've seen a remarkable improvement in my English proficiency
+                since starting her classes.
+              </p>
+            </div>
+          </div>
+          <button id="review--btn">See More</button>
+        </section>
       </main>
     </div>
     <footer><p>Created by Chris Azuaje</p></footer>
   </body>
+  <script src="loadReviews.js"></script>
 </html>

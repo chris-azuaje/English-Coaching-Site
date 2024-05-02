@@ -1,0 +1,29 @@
+{
+  "reviews": [
+    {
+      "name": "Chase Smith",
+      "review": "I had the pleasure of attending Anastasia's advanced English course, and I was deeply impressed by her knowledge and professionalism. Her methodical approach to teaching grammar and vocabulary was instrumental in helping me achieve fluency. She tailors each lesson to fit the needs of the students, ensuring consistent progress.",
+      "date": "August 12, 2019"
+    },
+    {
+      "name": "Lauren Jure",
+      "review": "Anastasia is an absolute gem! She makes learning English fun and engaging. Every lesson was filled with interactive exercises that helped me overcome my fear of speaking in public. I can't thank her enough for helping me gain confidence in my English skills!",
+      "date": "Febrauary 05, 2021"
+    },
+    {
+      "name": "Matt McQueen",
+      "review": "Anastasia's coaching helped me improve my conversational English tremendously. She provided personalized feedback that addressed my weaknesses directly. I highly recommend her to anyone looking to improve their English!",
+      "date": "July 04, 2023"
+    },
+    {
+      "name": "Sarah Garcia",
+      "review": "Moving to a new country was challenging, but Anastasia made my language transition seamless. I still remember the first lesson vividly, where she made complex grammar rules simple to understand. Her patience and encouragement kept me motivated, and now I feel at home speaking English.",
+      "date": "September 29, 2023"
+    },
+    {
+      "name": "Tony Deane",
+      "review": "As someone who struggles with business English, Anastasia's focus on professional language was a game-changer for me. Her structured lessons covered everything from email etiquette to negotiation vocabulary. Thanks to her, I now feel more confident in my ability to communicate effectively in a corporate environment.",
+      "date": "January 20, 2024"
+    }
+  ]
+}

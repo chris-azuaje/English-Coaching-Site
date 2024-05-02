@@ -8,21 +8,8 @@
   --color-7: #463f3a;
 }
 
-.lato-regular {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.platypi-regular {
-  font-family: 'Platypi', serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
 body {
-  font-family: lato, sans-serif;
+  font-family: 'Cormorant Garamond', serif;
   background: var(--color-3);
   display: flex;
   flex-direction: column;
@@ -74,8 +61,7 @@ h1 {
 
 .nav-links a:hover {
   background-color: var(--color-3);
-  font-weight: 800;
-  transform: translateY(-1px);
+  transform: translateY(-2px);
   border-radius: 5px;
 }
 
@@ -117,6 +103,60 @@ main {
   height: 400px;
   object-fit: cover;
   object-position: 0 100%;
+}
+
+/* ---------- Reviews Section ---------- */
+
+#reviews__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#reviews__section h2 {
+  color: var(--color-7);
+}
+
+.reviews__container {
+  background-color: var(--color-4);
+  padding: 20px 20px 15px 20px;
+  border-radius: 5px;
+}
+
+.review__heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review--name {
+  font-size: 1.7rem;
+  margin: 0;
+}
+
+.review--date {
+  font-size: 1.2rem;
+  height: 100%;
+  margin: auto 0;
+}
+
+.review--message {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0 0 0;
+}
+
+#review--btn {
+  font-size: 1rem;
+  background-color: var(--color-2);
+  border: 3px solid var(--color-3);
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 10px;
+}
+
+#review--btn:hover {
+  border: 3px solid var(--color-6);
+  cursor: pointer;
 }
 
 /* ---------- Courses Section ---------- */
@@ -290,6 +330,140 @@ div.error {
 
 footer {
   text-align: center;
-  margin: 0 50px;
+  /* margin: 0 50px; */
+  margin: 300px 50px;
   bottom: 0;
+}
+
+/*------------------------- Google Fonts -------------------------*/
+.roboto-thin {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-light-italic {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-regular-italic {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-medium-italic {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-bold-italic {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-black-italic {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.cormorant-garamond-light {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.cormorant-garamond-light-italic {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.cormorant-garamond-regular {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cormorant-garamond-regular-italic {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.cormorant-garamond-medium {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.cormorant-garamond-medium-italic {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.cormorant-garamond-semibold {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.cormorant-garamond-semibold-italic {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.cormorant-garamond-bold {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cormorant-garamond-bold-italic {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  font-style: italic;
 }
