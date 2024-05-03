@@ -117,10 +117,15 @@ main {
   color: var(--color-7);
 }
 
-.reviews__container {
+.review {
   background-color: var(--color-4);
   padding: 20px 20px 15px 20px;
   border-radius: 5px;
+  margin: 15px 0px;
+}
+
+.static-review {
+  margin-bottom: 0;
 }
 
 .review__heading {
@@ -140,6 +145,7 @@ main {
 }
 
 .review--message {
+  font-size: 1.4rem;
   padding: 10px;
   border-radius: 5px;
   margin: 10px 0 0 0;
@@ -151,12 +157,16 @@ main {
   border: 3px solid var(--color-3);
   border-radius: 5px;
   padding: 10px 15px;
-  margin: 10px;
+  margin: 20px;
 }
 
 #review--btn:hover {
   border: 3px solid var(--color-6);
   cursor: pointer;
+}
+
+.review--btn-hide {
+  display: none;
 }
 
 /* ---------- Courses Section ---------- */
@@ -268,7 +278,7 @@ fieldset > p {
 }
 
 label {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-bottom: 5px;
 }
 
@@ -286,8 +296,9 @@ input {
   border-radius: 5px;
   width: 550px;
   height: 40px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   padding: 0 10px;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 input:focus {
@@ -296,9 +307,9 @@ input:focus {
 }
 
 textarea {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Cormorant Garamond', serif;
   border-radius: 5px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   border: 3px solid var(--color-1);
   width: 550px;
   padding: 10px;
@@ -330,8 +341,8 @@ div.error {
 
 footer {
   text-align: center;
-  /* margin: 0 50px; */
-  margin: 300px 50px;
+  margin: 0 50px;
+  /* margin: 300px 50px; */
   bottom: 0;
 }
 

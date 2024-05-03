@@ -1,6 +1,6 @@
-'use strict';
+// jQuery Plugin
 
-// Plugin
+'use strict';
 
 $().ready(function () {
   $('#contactMeForm').validate({

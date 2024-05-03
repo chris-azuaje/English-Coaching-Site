@@ -1,6 +1,6 @@
-'use strict';
+// jQuery Plugin
 
-// Plugin
+'use strict';
 
 $().ready(function () {
   $('#country_selector').countrySelect({

@@ -1,6 +1,6 @@
-'use strict';
+// jQuery-UI
 
-// UI
+'use strict';
 
 $().ready(function () {
   let icons = {
