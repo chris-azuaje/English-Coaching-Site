@@ -23,27 +23,13 @@ body {
   margin: 0 auto;
 }
 
+/* ---------- Navbar ---------- */
+
 nav {
   display: flex;
   justify-content: space-between;
   background-color: var(--color-1);
   border-radius: 5px;
-}
-
-.title {
-  margin: 20px 0 20px 20px;
-  color: var(--color-7);
-}
-
-h1 {
-  margin: 0;
-  font-size: 32px;
-}
-
-.title-subheading {
-  margin: 0;
-  font-weight: 600;
-  font-size: 18px;
 }
 
 .nav-links {
@@ -64,6 +50,24 @@ h1 {
   transform: translateY(-2px);
   border-radius: 5px;
 }
+
+.title {
+  margin: 20px 0 20px 20px;
+  color: var(--color-7);
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.title-subheading {
+  margin: 0;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* ---------- Main & Header ---------- */
 
 main {
   font-size: 24px;
@@ -342,82 +346,10 @@ div.error {
 footer {
   text-align: center;
   margin: 0 50px;
-  /* margin: 300px 50px; */
   bottom: 0;
 }
 
 /*------------------------- Google Fonts -------------------------*/
-.roboto-thin {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  font-style: normal;
-}
-
-.roboto-thin-italic {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  font-style: italic;
-}
-
-.roboto-light {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.roboto-light-italic {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.roboto-regular {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.roboto-regular-italic {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.roboto-medium {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.roboto-medium-italic {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.roboto-bold {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.roboto-bold-italic {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.roboto-black {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.roboto-black-italic {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
-  font-style: italic;
-}
 
 .cormorant-garamond-light {
   font-family: 'Cormorant Garamond', serif;
